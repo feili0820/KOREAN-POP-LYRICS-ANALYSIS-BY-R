@@ -1,4 +1,4 @@
-# TOPIC MODELLING ANALYSIS ON KOREAN POP LYRIC(R version)
+# TOPIC MODELLING ANALYSIS ON KOREAN POP LYRICS (R version)
 본 프로젝트는 한국어 가사 텍스트를 대상으로 하는 토픽 모델링 자동 분류 효과를 테스트하기 위한 것이다. 데이터 소스는 [MELON](https://www.melon.com/)에서 "사랑" 키워드로 검색된 5000건 이상의 가사 원본 텍스트이며, 사용하는 모형은 LDA와 STM이다. 모형의 훈련 환경은 `R 3.9.*`이다.
 
 ## INTRODUCTION
