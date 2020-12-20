@@ -32,7 +32,7 @@ In Korea, popular songs could be a very important way for people to express thei
 **Tool:** [Utagger](http://nlplab.ulsan.ac.kr/doku.php?id=utagger "stop")
 
 **Example for lyrics auto-tagging:**
-* raw lyric: "사랑 그 사랑 때문에. 그 사람 때문에. 내가 지금껏 살아서. 오늘 오늘이 지나서. 그 사람 다시 볼 수 없게 되면. 다시 볼 수 없게 되면 어쩌죠. 그 많은 인연에 왜 하필. 우리 만나서. ---임재범(2013) <사랑>"
+* raw lyric: "사랑 그 사랑 때문에. 그 사람 때문에. 내가 지금껏 살아서. 오늘 오늘이 지나서. 그 사람 다시 볼 수 없게 되면. 다시 볼 수 없게 되면 어쩌죠. 그 많은 인연에 왜 하필. 우리 만나서." ---임재범(2013) <사랑>
 - pos tags: "사랑__01/NNG 그__01/MM 사랑__01/NNG 때문/NNB+에/JKB+./SF+그__01/MM 사람/NNG 때문/NNB+에/JKB+./SF+내__04/NP+가/JKS 지금껏/MAG 살__01/VV+아서/EF+./SF+오늘/NNG 오늘/NNG+이/JKS 지나/VV+아서/EF+./SF+그__01/MM 사람/NNG 다시__01/MAG 보__01/VV+ㄹ/ETM 수__02/NNB 없__01/VA+게/EC 되__01/VV+면/EF+./SF+다시__01/MAG 보__01/VV+ㄹ/ETM 수__02/NNB 없__01/VA+게/EC 되__01/VV+면/EC 어쩌__01/VV+죠/EF+./SF+그__01/MM 많/VA+은/ETM 인연__03/NNG+에/JKB 왜__02/MAG 하필__02/MAG+./SF+우리__03/NP 만나/VV+아서/EF+./SF"
 * selected morphemes: "사랑 그 사랑 그 사람 내 지금껏 살 오늘 오늘 지나 그 사람 다시 보 없 되 다시 보 없 되 어쩌 그 많 인연 왜 하필 우리 만나"
 
