@@ -51,6 +51,7 @@ In Korea, popular songs could be a very important way for people to express thei
 **Graphing for LDA result:** [text2vec.R](./codes/text2vec.R "stop")
 
 ## RESULTS
+
 **LDA:**
 ![LDA](./plottings/LDA in Rectangular Coordinates.png)
 
