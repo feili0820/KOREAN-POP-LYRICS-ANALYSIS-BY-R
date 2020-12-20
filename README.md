@@ -38,10 +38,10 @@ In Korea, popular songs could be a very important way for people to express thei
 
 ### Topics "K" Optimization
 **K selection in STM:**
-![stm-K](./plottings/stm_k_new1.png)
+![stm-K](./plottings/stm_k_new1.png  width="200" height="200")
 
 **K selection in LDA:**
-![LDA-K](./plottings/lda_k_tunes.png)
+![LDA-K](./plottings/lda_k_tunes.png  width="200" height="150")
 
 **Code for "K" Optimization(LDA):** [topicmodels_k_opt.R](./codes/topicmodels_k_opt.R "stop")
 
