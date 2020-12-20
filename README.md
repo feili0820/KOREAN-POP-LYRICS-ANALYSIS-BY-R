@@ -15,18 +15,52 @@ In Korea, popular songs could be a very important way for people to express thei
 
 **Code:** [lyrics3.R](./codes/lyrics3.R "stop")
 
+**Details for manual filtering:**
+* 자동 검색 결과 수: 9985 (MELON 사이트에서 "사랑" 키워드로 검색된 가사 총수.)
+- 1차 점검 후 개수: 8818 (R로 완전 일치 항목들을 일제히 제거.)
+- 2차 점검 후 개수: 6628 (엑셀에서 "lyrics" 란을 위주로 중복된 항목 제거.)
+- 3차 점검 후 개수: 6511 (엑셀에서 "lyrics" 란에 영어나 일본어 등 외국어 가사 및 기타 부적절한 항목(가사가 너무 짧거나 이상한 것) 제거.)
+* 4차 점검 후 개수: 5082 (공백, 띄어쓰기, 문장 반복 등 차이로 인해 전에 검출하지 못한 "lyrics" 중복 항목들을 마지막 수동 검사 후 제거.)
+
+
 ### Text Preprocessing
 1. “lyrics” 항목에 저장한 모든 가사 내용을 하나씩 추출한 후 하나의 TXT로 묶음.
 2. UTAGGER 프로그램에서 가사 TXT 파일을 불러온 후 형태소 자동 주석 진행.
 3. UTAGGER 분석 결과를 “lyrics_tag” TXT 파일로 저장한 후에 R로 다시 불러들임.
 4. R에서 형태소 단위 별로 POS주석 정보에 따라 각 가사 내용의 실질적 형태소 부분만 추출. (실질적 형태소 범위: 명사NN, 동사VV, 형용사VC/MM, 부사MA; 감탄사IC는 예외로 포괄했음)
 
+**Tool:** [Utagger](http://nlplab.ulsan.ac.kr/doku.php?id=utagger "stop")
+
+**Example for lyrics auto-tagging:**
+* raw lyric: 사랑 그 사랑 때문에. 그 사람 때문에. 내가 지금껏 살아서. 오늘 오늘이 지나서. 그 사람 다시 볼 수 없게 되면. 다시 볼 수 없게 되면 어쩌죠. 그 많은 인연에 왜 하필. 우리 만나서.
+- pos tags: 사랑__01/NNG 그__01/MM 사랑__01/NNG 때문/NNB+에/JKB+./SF+그__01/MM 사람/NNG 때문/NNB+에/JKB+./SF+내__04/NP+가/JKS 지금껏/MAG 살__01/VV+아서/EF+./SF+오늘/NNG 오늘/NNG+이/JKS 지나/VV+아서/EF+./SF+그__01/MM 사람/NNG 다시__01/MAG 보__01/VV+ㄹ/ETM 수__02/NNB 없__01/VA+게/EC 되__01/VV+면/EF+./SF+다시__01/MAG 보__01/VV+ㄹ/ETM 수__02/NNB 없__01/VA+게/EC 되__01/VV+면/EC 어쩌__01/VV+죠/EF+./SF+그__01/MM 많/VA+은/ETM 인연__03/NNG+에/JKB 왜__02/MAG 하필__02/MAG+./SF+우리__03/NP 만나/VV+아서/EF+./SF
+* selected morphemes: 사랑 그 사랑 그 사람 내 지금껏 살 오늘 오늘 지나 그 사람 다시 보 없 되 다시 보 없 되 어쩌 그 많 인연 왜 하필 우리 만나
 
 ### Topics "K" Optimization
+**K selection in STM:**
+![stm-K](./plottings/stm_k_new1.png)
+
+**K selection in LDA:**
+![LDA-K](./plottings/lda_k_tunes.png)
+
+**Code for "K" Optimization(LDA):** [topicmodels_k_opt.R](./codes/topicmodels_k_opt.R "stop")
+
 ### Model Training
+**Code for STM:** [lyrics3.R](./codes/lyrics3.R "stop")
+**Code for LDA:** [text2vec.R](./codes/text2vec.R "stop")
+**Graphing for LDA result:** [text2vec.R](./codes/text2vec.R "stop")
 
 ## RESULTS
+**LDA:**
+![LDA](./plottings/LDA in Rectangular Coordinates.png)
+
+**STM:**
+![STM1](./plottings/stm_1.png)
+![STM2](./plottings/stm_2.png)
+![STM3](./plottings/stm_3.png)
+![STM4](./plottings/stm_4.png)
+![STM5](./plottings/stm_5.png)
 
 ## CITEMENT
 
-
+REFERENCE: **A study on the practicability of categorizing Korean popular songs by topic modeling (LDA& STM): based on lyrics with “love-centered” keywords since 1970s.**
