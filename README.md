@@ -52,14 +52,45 @@ In Korea, popular songs could be a very important way for people to express thei
 
 ## RESULTS
 
-**LDA:**
-![LDA](./plottings/LDA in Rectangular Coordinates.png)
+### LDA:
+#### Total:
+![LDA-01](./plottings/LDA_01.png)
+![LDA-02](./plottings/LDA_02.png)
 
-**STM:**
+#### Topic 1 in LDA:
+![LDA-1](./plottings/LDA1.png)
+#### Topic 11 in LDA:
+![LDA-11](./plottings/LDA11.png)
+#### Topic 12 in LDA:
+![LDA-12](./plottings/LDA12.png)
+#### Topic 15 in LDA:
+![LDA-15](./plottings/LDA15.png)
+#### Topic 16 in LDA:
+![LDA-16](./plottings/LDA16.png)
+#### Topic 19 in LDA:
+![LDA-19](./plottings/LDA19.png)
+#### Topic 3 in LDA:
+![LDA-3](./plottings/LDA3.png)
+#### Topic 5 in LDA:
+![LDA-5](./plottings/LDA5.png)
+#### Topic 6 in LDA:
+![LDA-6](./plottings/LDA6.png)
+#### Topic 8 in LDA:
+![LDA-8](./plottings/LDA8.png)
+
+
+### STM:
+#### total
+![STM0](./plottings/stm0.png)
+#### Topic 1~4 in STM
 ![STM1](./plottings/stm_1.png)
+#### Topic 5~8 in STM
 ![STM2](./plottings/stm_2.png)
+#### Topic 9~12 in STM
 ![STM3](./plottings/stm_3.png)
-![STM4](./plottings/stm_4.png)
+#### Topic 13~16 in STM
+![STM4](./plottings/stm_4.png)\
+#### Topic 17~20 in STM
 ![STM5](./plottings/stm_5.png)
 
 ## CITEMENT
