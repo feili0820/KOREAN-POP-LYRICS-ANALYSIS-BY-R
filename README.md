@@ -58,7 +58,7 @@ In Korea, popular songs could be a very important way for people to express thei
 ![LDA-02](./plottings/LDA_02.png "특징적 어휘 분포 순위")
 
 #### Topic 1 in LDA:
-![LDA-1](./plottings/LDA1.png "1번 토픽 결과")
+![LDA-1](./plottings/LDA1.jpg "1번 토픽 결과")
 #### Topic 11 in LDA:
 ![LDA-11](./plottings/LDA11.png "11번 토픽 결과")
 #### Topic 12 in LDA:
