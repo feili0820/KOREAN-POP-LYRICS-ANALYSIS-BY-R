@@ -13,7 +13,7 @@ In Korea, popular songs could be a very important way for people to express thei
 5. 발매 시간에 대해, 기존의 연/월/일(2000.1.1) 형태를 모조리 연-월-일(2000-1-1)로 변경; 만약 연도만 있고 구체적인 월, 일 정보가 없을 경우, 일제히 1월1일(01-01)로 채움; 만약 연도조차 불투명한 경우, 일제히 1970년 1월 1일(1970-01-01)로 채움.
 6. 노래 가사 부분에 대해 재점검; 우선 한국어로 된 노래 가사만 선별한 후에 중복된 항목들을 일제히 삭제. 노래 가사 중에 띄어쓰기나 맞춤법 오류 등 문제에 원칙적으로 추가 교정 안함.
 
-**Code:** [lyrics3.R](./codes/lyrics3.R "stop")
+**Code:** [lyrics3.R](./codes/lyrics3.R "코드 상반부 참조")
 
 **Details for manual filtering:**
 * 자동 검색 결과 수: 9985 (MELON 사이트에서 "사랑" 키워드로 검색된 가사 총수.)
@@ -46,52 +46,52 @@ In Korea, popular songs could be a very important way for people to express thei
 **Code for "K" Optimization(LDA):** [topicmodels_k_opt.R](./codes/topicmodels_k_opt.R "stop")
 
 ### Model Training
-**Code for STM:** [lyrics3.R](./codes/lyrics3.R "stop")
-**Code for LDA:** [text2vec.R](./codes/text2vec.R "stop")
-**Graphing for LDA result:** [text2vec.R](./codes/text2vec.R "stop")
+**Code for STM:** [lyrics3.R](./codes/lyrics3.R "코드 마지막 부분 참조")
+**Code for LDA:** [text2vec.R](./codes/text2vec.R "코드 상반부 참조")
+**Graphing for LDA result:** [text2vec.R](./codes/text2vec.R "코드 후반부 참조")
 
 ## RESULTS
 
 ### LDA:
 #### Total:
-![LDA-01](./plottings/LDA_01.png)
-![LDA-02](./plottings/LDA_02.png)
+![LDA-01](./plottings/LDA_01.png "전체 분류 결과")
+![LDA-02](./plottings/LDA_02.png "특징적 어휘 분포 순위")
 
 #### Topic 1 in LDA:
-![LDA-1](./plottings/LDA1.png)
+![LDA-1](./plottings/LDA1.png "1번 토픽 결과")
 #### Topic 11 in LDA:
-![LDA-11](./plottings/LDA11.png)
+![LDA-11](./plottings/LDA11.png "11번 토픽 결과")
 #### Topic 12 in LDA:
-![LDA-12](./plottings/LDA12.png)
+![LDA-12](./plottings/LDA12.png "12번 토픽 결과")
 #### Topic 15 in LDA:
-![LDA-15](./plottings/LDA15.png)
+![LDA-15](./plottings/LDA15.png "15번 토픽 결과")
 #### Topic 16 in LDA:
-![LDA-16](./plottings/LDA16.png)
+![LDA-16](./plottings/LDA16.png "16번 토픽 결과")
 #### Topic 19 in LDA:
-![LDA-19](./plottings/LDA19.png)
+![LDA-19](./plottings/LDA19.png "19번 토픽 결과")
 #### Topic 3 in LDA:
-![LDA-3](./plottings/LDA3.png)
+![LDA-3](./plottings/LDA3.png "3번 토픽 결과")
 #### Topic 5 in LDA:
-![LDA-5](./plottings/LDA5.png)
+![LDA-5](./plottings/LDA5.png "5번 토픽 결과")
 #### Topic 6 in LDA:
-![LDA-6](./plottings/LDA6.png)
+![LDA-6](./plottings/LDA6.png "6번 토픽 결과")
 #### Topic 8 in LDA:
-![LDA-8](./plottings/LDA8.png)
+![LDA-8](./plottings/LDA8.png "8번 토픽 결과")
 
 
 ### STM:
 #### total
-![STM0](./plottings/stm0.png)
+![STM0](./plottings/stm0.png "전부 토픽 비율 분포")
 #### Topic 1~4 in STM
-![STM1](./plottings/stm_1.png)
+![STM1](./plottings/stm_1.png "1(상좌), 2(상우), 3(하좌), 4(하우)")
 #### Topic 5~8 in STM
-![STM2](./plottings/stm_2.png)
+![STM2](./plottings/stm_2.png "5(상좌), 6(상우), 7(하좌), 8(하우)")
 #### Topic 9~12 in STM
-![STM3](./plottings/stm_3.png)
+![STM3](./plottings/stm_3.png "9(상좌), 10(상우), 11(하좌), 12(하우)")
 #### Topic 13~16 in STM
-![STM4](./plottings/stm_4.png)\
+![STM4](./plottings/stm_4.png "13(상좌), 14(상우), 15(하좌), 16(하우)")
 #### Topic 17~20 in STM
-![STM5](./plottings/stm_5.png)
+![STM5](./plottings/stm_5.png "17(상좌), 18(상우), 19(하좌), 20(하우)")
 
 ## CITEMENT
 
