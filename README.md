@@ -63,4 +63,4 @@ In Korea, popular songs could be a very important way for people to express thei
 
 ## CITEMENT
 
-REFERENCE: **A study on the practicability of categorizing Korean popular songs by topic modeling (LDA& STM): based on lyrics with “love-centered” keywords since 1970s.**
+REFERENCE: **A study on the practicability of categorizing Korean popular songs by topic modeling (LDA& STM): based on lyrics with “love-centered” keywords since 1970s. 2020**
