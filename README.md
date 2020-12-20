@@ -46,9 +46,9 @@ In Korea, popular songs could be a very important way for people to express thei
 **Code for "K" Optimization(LDA):** [topicmodels_k_opt.R](./codes/topicmodels_k_opt.R "stop")
 
 ### Model Training
-**Code for STM:** [lyrics3.R](./codes/lyrics3.R "코드 마지막 부분 참조")
-**Code for LDA:** [text2vec.R](./codes/text2vec.R "코드 상반부 참조")
-**Graphing for LDA result:** [text2vec.R](./codes/text2vec.R "코드 후반부 참조")
+* **Code for STM:** [lyrics3.R](./codes/lyrics3.R "코드 마지막 부분 참조")
+- **Code for LDA:** [text2vec.R](./codes/text2vec.R "코드 상반부 참조")
+* **Graphing for LDA result:** [text2vec.R](./codes/text2vec.R "코드 후반부 참조")
 
 ## RESULTS
 
