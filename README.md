@@ -93,6 +93,6 @@ In Korea, popular songs could be a very important way for people to express thei
 #### Topic 17~20 in STM
 ![STM5](./plottings/stm_5.png "17(상좌), 18(상우), 19(하좌), 20(하우)")
 
-## CITEMENT
+## CITATION
 
 REFERENCE: **A study on the practicability of categorizing Korean popular songs by topic modeling (LDA& STM): based on lyrics with “love-centered” keywords since 1970s. 2020**
