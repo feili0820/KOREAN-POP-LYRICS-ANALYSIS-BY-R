@@ -95,4 +95,4 @@ In Korea, popular songs could be a very important way for people to express thei
 
 ## CITATION
 
-REFERENCE: **A study on the practicability of categorizing Korean popular songs by topic modeling (LDA& STM): based on lyrics with “love-centered” keywords since 1970s. 2020**
+REFERENCE: **Fei Li. (2020). 한국 대중가요 가사 유형화에 토픽 모델링(LDA 및 STM) 적용 실용성 시론 - 70년대 이후 “사랑” 주제어 관련 가사를 중심으로 -. 텍스트언어학, 49, 275-328.**
